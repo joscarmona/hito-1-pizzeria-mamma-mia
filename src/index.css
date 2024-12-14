@@ -1,0 +1,49 @@
+/* EN ESTE ARCHIVO SE AGREGARÁ EL CSS QUE SE LE DESEA DAR AL PROYECTO */
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY*/
+body{
+  font-family: "Roboto", system-ui;
+  font-style: normal;
+}
+
+/* LAYOUT */
+.layout{
+  border: solid darkmagenta;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+  'navbar'
+  'home'
+  'footer';
+  grid-template-rows: 1fr 8fr 1.5fr;
+  /* gap: 20px; */
+}
+
+/* NAVBAR */
+.navbar{
+  border: solid red;
+  grid-area: navbar;
+}
+
+/* HOME */
+.home{
+  border: solid green;
+  grid-area: home;
+}
+
+/* FOOTER */
+.footer{
+  display: flex;
+  border: solid blue;
+  grid-area: footer;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1F1F;
+  color: white;
+}
