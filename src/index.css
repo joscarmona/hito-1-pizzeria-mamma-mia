@@ -1,18 +1,19 @@
 /* EN ESTE ARCHIVO SE AGREGARÁ EL CSS QUE SE LE DESEA DAR AL PROYECTO */
-/* RESET */
+
+/* ****** RESET ****** */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY*/
+/* ****** BODY ****** */
 body{
   font-family: "Roboto", system-ui;
   font-style: normal;
 }
 
-/* LAYOUT */
+/* ****** LAYOUT ****** */
 .layout{
   border: solid darkmagenta;
   height: 100vh;
@@ -25,19 +26,52 @@ body{
   /* gap: 20px; */
 }
 
-/* NAVBAR */
+/* ****** NAVBAR ****** */
 .navbar{
   border: solid red;
   grid-area: navbar;
+  background-color: #1F1F1F;
+  color: white;
+  text-align: center;
 }
 
-/* HOME */
+/* ****** HOME ****** */
 .home{
   border: solid green;
   grid-area: home;
 }
 
-/* FOOTER */
+/* ****** HEADER ****** */
+.header{
+  border: solid salmon;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./assets/Header.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  background-position-y: top;
+  background-size: 100%;
+  color: white;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ****** H1 TITLE *******/
+.title{
+  font-size: 3em;
+}
+
+/* ****** HR LINEA****** */
+.hr-linea{
+  width: 80%;
+  opacity: 0.2;  
+}
+
+/* ****** FOOTER ****** */
 .footer{
   display: flex;
   border: solid blue;

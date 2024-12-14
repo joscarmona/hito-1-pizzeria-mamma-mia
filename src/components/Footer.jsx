@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <section className="footer">
+        <footer className="footer">
             <p>
                 © 2024 - Pizzería Mamma Mia! - Todos los derechos reservados
             </p>
-        </section>
+        </footer>
         
     )
 }
