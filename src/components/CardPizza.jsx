@@ -1,12 +1,10 @@
 /************************************************************** */
 /* ************************ COMPONENTE ************************ */
 /************************************************************** */
-const CardPizza = ({name, price, ingredients, img}) => {
-    /* INGREDIENTES, con el método join convierto un arreglo en un string*/
-    // const ingredientes = ingredients.map((ingredient) => ingredient)
-    const ingredientes = ingredients.join(", ")
-    // console.log(ingredientes)
-
+// const CardPizza = ({name, price, ingredients, img}) => {
+const CardPizza = ({producto}) => {
+    /* DESTRUCTURING PRODUCTO (PROPS) */
+    const {name, price, ingredients, img} = producto
     return (
         /* ****** CARD ****** */
         <article className = "card">
@@ -21,7 +19,8 @@ const CardPizza = ({name, price, ingredients, img}) => {
                     Ingredientes:
                     <br />
                     {/* UTF-8 EMOJI PIZZA: &#x1F355; */}
-                    <span className="span-ingredientes">&#127829; {ingredientes.toString()}</span>
+                    {/* EL MÉTODO .JOIN() CONVIERTE UN ARREGLO A UN STRING */}
+                    <span className="span-ingredientes">&#127829; {ingredients.join(", ")}</span>
                 </p>
                 {/* PRECIO & BOTONES DE VER MÁS Y AÑADIR AL CARRO DE COMPRAS */}
                 <div className="precio-botones">

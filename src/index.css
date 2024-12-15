@@ -123,7 +123,7 @@ body{
 
 /* ****** CARD****** */
 .card{
-  border: 1px solid #c0c4ce;
+  border: 1px solid #e1e4e9;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -141,18 +141,19 @@ body{
   flex-direction: column;
   /* gap: 20px; */
   color: #413e3e;
+  /* border: 1px solid #e1e4e9; */
 }
 
 /* ****** PIZZA NAME ****** */
 .pizza-name{
-  border: 0.5px solid #c0c4ce;
-  /* margin-left: 1em; */
+  /* border: 0.5px solid #c0c4ce; */
   padding: 1em;
 }
 
 /* ****** INGREDIENTES ****** */
 .ingredientes{
-  border: 1px solid #c0c4ce;
+  border-top: 1px solid #e1e4e9;
+  border-bottom: 1px solid #e1e4e9;
   line-height: 2.5em;
   text-align: center;
   color: #5c5f69;
@@ -164,7 +165,7 @@ body{
 
 /* ****** PRECIO & BTNS DE VER MÁS Y DE AÑADIR AL CARRO DE COMPRAS*/
 .precio-botones{
-  border: 1px solid #c0c4ce;
+  /* border: 1px solid #c0c4ce; */
   padding: 1em;
   line-height: 3.5em;
   text-align: center;
