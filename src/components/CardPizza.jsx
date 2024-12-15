@@ -28,8 +28,10 @@ const CardPizza = ({name, price, ingredients, img}) => {
                     <h2>Precio: ${price.toLocaleString('es-CL')}</h2>
                     <div className="buttons">
                         {/* VER MÁS */}
+                        {/* UTF-8 EMOJI EYES: &#128064; */}
                         <button className="button-ver-mas">Ver más &#128064;</button>
                         {/* AÑADIR AL CARRO DE COMPRAS */}
+                        {/* UTF-8 EMOJI SHOPPING CART: &#128722; */}
                         <button className="button-añadir-carro">Añadir &#128722;</button>
                     </div>
                 </div>

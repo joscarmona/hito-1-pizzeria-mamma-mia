@@ -29,13 +29,51 @@ body{
 /* ****** NAVBAR ****** */
 .navbar{
   /* border: solid red; */
+  display: flex;
   grid-area: navbar;
   background-color: #1F1F1F;
-  color: white;
-  text-align: center;
+  color: #e5e8e9e7;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 1em;
+}
+
+/* ****** NOMBRE DE LA WEB & LAS OPCIONES ****** */
+.nombre-web-opciones{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ****** OPCIONES ****** */
+.opciones{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ****** LINK OPCIÓN ****** */
+.link-opcion{
+  text-decoration: none;
+  color: #e5e8e9e7;
+  font-size: smaller;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.4em 0.8em;
+}
+
+/* ****** PRECIO TOTAL DE LOS PRODUCTOS AGREGADOS AL CARRO ****** */
+.total-shopping-cart{
+  color: #5aa0ac;
+  font-size: smaller;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.4em 0.8em;
 }
 /* ******************************************************************* */
 /* ******************************************************************* */
+
 
 /* ****** HOME ****** */
 .home{
